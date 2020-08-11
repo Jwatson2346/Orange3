@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Data Table" position="(182.0, 244.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="1" name="Paint Data" position="(54.0, 156.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" title="Paint Data" version="" />
+		<node id="2" name="Edit Domain" position="(279.0, 136.0)" project_name="Orange3" qualified_name="Orange.widgets.data.oweditdomain.OWEditDomain" title="Edit Domain" version="" />
+		<node id="3" name="Data Table" position="(415.0, 234.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (1)" version="" />
+		<node id="4" name="Feature Constructor" position="(569.0, 132.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfeatureconstructor.OWFeatureConstructor" title="Feature Constructor" version="" />
+		<node id="5" name="Data Table" position="(727.0, 202.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (2)" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="0" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="2" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="3" />
+		<link enabled="true" id="3" sink_channel="Data" sink_node_id="5" source_channel="Data" source_node_id="4" />
+		<link enabled="true" id="4" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="0" />
+	</links>
+	<annotations>
+		<text font-family=".AppleSystemUIFont" font-size="16" id="0" rect="(25.0, 18.0, 150.0, 69.0)" type="text/plain">1. Make an arbitrary two variable table</text>
+		<arrow end="(223.0, 287.0)" fill="#C1272D" id="1" start="(260.0, 341.0)" />
+		<text font-family=".AppleSystemUIFont" font-size="16" id="2" rect="(132.0, 346.0, 150.0, 31.0)" type="text/plain">2. Look at the Data</text>
+		<arrow end="(461.0, 285.0)" fill="#C1272D" id="3" start="(499.0, 321.0)" />
+		<text font-family=".AppleSystemUIFont" font-size="16" id="4" rect="(421.0, 323.0, 150.0, 26.0)" type="text/plain">3. Notice the change in the names of the data</text>
+		<arrow end="(294.0, 104.0)" fill="#C1272D" id="5" start="(329.0, 71.0)" />
+		<text font-family=".AppleSystemUIFont" font-size="16" id="6" rect="(327.0, 16.0, 150.0, 26.0)" type="text/plain">3. Change the names of the data labels</text>
+		<arrow end="(545.9999999999999, 92.0)" fill="#C1272D" id="7" start="(515.9999999999999, 57.0)" />
+		<text font-family=".AppleSystemUIFont" font-size="16" id="8" rect="(540.0, -22.0, 150.0, 88.0)" type="text/plain">5. Create a column which is a functional of other variables</text>
+		<arrow end="(85.0, 132.0)" fill="#C1272D" id="9" start="(118.0, 97.0)" />
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties format="pickle" node_id="0">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAolYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQ0IB2dDLAAMAAAAAANoAAAFBAAAEsgAAA0oAAADaAAABVwAABLIA
+AANKAAAAAAAAAAAFoAAAANoAAAFXAAAEsgAAA0pxB1gLAAAAc2VsZWN0X3Jvd3NxCIhYDQAAAHNl
+bGVjdGVkX2NvbHNxCV1xClgNAAAAc2VsZWN0ZWRfcm93c3ELXXEMWBUAAABzaG93X2F0dHJpYnV0
+ZV9sYWJlbHNxDYlYEgAAAHNob3dfZGlzdHJpYnV0aW9uc3EOiVgLAAAAX192ZXJzaW9uX19xD0sB
+WBAAAABjb250ZXh0X3NldHRpbmdzcRBdcRFjb3Jhbmdld2lkZ2V0LnNldHRpbmdzCkNvbnRleHQK
+cRIpgXETfXEUKFgEAAAAdGltZXEVR0HXs0tvDqmkWAYAAAB2YWx1ZXNxFn1xF2gPSwFzWAoAAABh
+dHRyaWJ1dGVzcRh9cRkoWAEAAAB4cRpLAlgBAAAAeXEbSwJ1WAUAAABtZXRhc3EcfXEddWJhdS4=
+</properties>
+		<properties format="literal" node_id="1">{'attr1': 'x', 'attr2': 'y', 'autocommit': True, 'brushRadius': 75, 'controlAreaVisible': True, 'data': [[0.2983051720835182, 0.3892229018547481, 0.0], [0.29306616024710236, 0.3512761410290994, 0.0], [0.21652478983202567, 0.37210700051998985, 0.0], [0.31682512054866796, 0.43768116248769706, 0.0], [0.28684430418349166, 0.4930421342115012, 0.0], [0.347249964505601, 0.522717417399393, 0.0], [0.3894054207328309, 0.6311429568699822, 0.0], [0.5102477159629067, 0.6059555902361154, 0.0], [0.46787152262893683, 0.6663136373187892, 0.0], [0.4750519227685816, 0.616494925413891, 0.0], [0.5284645146087906, 0.6541757895507136, 0.0], [0.540614904765818, 0.6166250906301624, 0.0]], 'density': 7, 'hasAttr2': True, 'labels': ['C1', 'C2'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xa9\x00\x00\x00y\x00\x00\x03\xe2\x00\x00\x02\xe6\x00\x00\x01\xa9\x00\x00\x00\x8f\x00\x00\x03\xe2\x00\x00\x02\xe6\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x01\xa9\x00\x00\x00\x8f\x00\x00\x03\xe2\x00\x00\x02\xe6', 'symbol_size': 10, 'table_name': 'Painted data', '__version__': 1}</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlx
+AkNCAdnQywADAAAAAALhAAAAqwAABXQAAAMYAAAC4QAAAMEAAAV0AAADGAAAAAAAAAAABaAAAALh
+AAAAwQAABXQAAAMYcQNYCwAAAF9fdmVyc2lvbl9fcQRLAlgQAAAAY29udGV4dF9zZXR0aW5nc3EF
+XXEGKGNvcmFuZ2V3aWRnZXQuc2V0dGluZ3MKQ29udGV4dApxBymBcQh9cQkoWAQAAAB0aW1lcQpH
+QdezS9I/IEJYBgAAAHZhbHVlc3ELfXEMKFgUAAAAX2RvbWFpbl9jaGFuZ2Vfc3RvcmVxDX1xDihY
+BAAAAFJlYWxxD1gLAAAAcGV0YWwgd2lkdGhxEEsBWAEAAABmcRGGcRIph3EThnEUXXEVWAYAAABT
+dHJpbmdxFlgBAAAAUnEXKYZxGIZxGV1xGmgWWAQAAABYLjYwcRsphnEchnEdXXEeKFgNAAAAQXND
+YXRlZ29yaWNhbHEfKYZxIFgGAAAAUmVuYW1lcSFYBgAAAE9iamVjdHEihXEjhnEkWAgAAABBbm5v
+dGF0ZXElWAAAAABxJmgmhnEnhXEohXEphnEqZVgEAAAAUmVhbHErWAEAAAB5cSxLA2gRhnEtKYdx
+LoZxL11xMFgGAAAAUmVuYW1lcTFYBQAAAGNvc3RzcTKFcTOGcTRhaCtYAQAAAHhxNUsDaBGGcTYp
+h3E3hnE4XXE5aDFYCAAAAHF1YW50aXR5cTqFcTuGcTxhdUr+////hnE9WBYAAABfbWVyZ2VfZGlh
+bG9nX3NldHRpbmdzcT59cT9K/v///4ZxQFgOAAAAX3NlbGVjdGVkX2l0ZW1xQVgIAAAAU2VsZWN0
+ZWRxQksAhnFDSv7///+GcURoBEsCdVgKAAAAYXR0cmlidXRlc3FFfXFGKGg1SwJoLEsCaEJLAXVY
+BQAAAG1ldGFzcUd9cUh1YmgHKYFxSX1xSihoCkdB17NL0j8fZGgLfXFLKGgNfXFMKGgUXXFNaBld
+cU5oHV1xTyhoIGgkaCplaC9dcVBoNGFoOF1xUWg8YXVK/v///4ZxUmg+fXFTSv7///+GcVRoQWgs
+SwKGcVVK/v///4ZxVmgESwJ1aEV9cVcoaDVLAmgsSwJ1aEd9cVh1YmgHKYFxWX1xWihoCkdB17NL
+iz9IamgLfXFbKGgNfXFcKGgUXXFdaBldcV5oHV1xXyhoIGgkaCplaC9dcWBoNGFoOF1xYWg8YXVK
+/v///4ZxYmg+fXFjSv7///+GcWRoQWgsSwKGcWVK/v///4ZxZmgESwJ1aEV9cWcoaDVLAmgsSwJo
+QksBdWhHfXFodWJldS4=
+</properties>
+		<properties format="pickle" node_id="3">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAolYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQ0IB2dDLAAMAAAAAANoAAAFBAAAEsgAAA0oAAADaAAABVwAABLIA
+AANKAAAAAAAAAAAFoAAAANoAAAFXAAAEsgAAA0pxB1gLAAAAc2VsZWN0X3Jvd3NxCIlYDQAAAHNl
+bGVjdGVkX2NvbHNxCV1xClgNAAAAc2VsZWN0ZWRfcm93c3ELXXEMWBUAAABzaG93X2F0dHJpYnV0
+ZV9sYWJlbHNxDYlYEgAAAHNob3dfZGlzdHJpYnV0aW9uc3EOiVgLAAAAX192ZXJzaW9uX19xD0sB
+WBAAAABjb250ZXh0X3NldHRpbmdzcRBdcREoY29yYW5nZXdpZGdldC5zZXR0aW5ncwpDb250ZXh0
+CnESKYFxE31xFChYBAAAAHRpbWVxFUdB17NL0kYftFgGAAAAdmFsdWVzcRZ9cRdoD0sBc1gKAAAA
+YXR0cmlidXRlc3EYfXEZKFgIAAAAcXVhbnRpdHlxGksCWAUAAABjb3N0c3EbSwJYCAAAAFNlbGVj
+dGVkcRxjT3JhbmdlLmRhdGEudmFyaWFibGUKVHVwbGVMaXN0CnEdWAIAAABOb3EeWAMAAABZZXNx
+H4ZxIIVxIYFxInVYBQAAAG1ldGFzcSN9cSR1YmgSKYFxJX1xJihoFUdB17NL0kYbuGgWfXEnaA9L
+AXNoGH1xKChoGksCaBtLAnVoI31xKXViZXUu
+</properties>
+		<properties format="pickle" node_id="4">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlx
+AkNCAdnQywADAAAAAAGoAAAA2gAAA+MAAAKGAAABqAAAAPAAAAPjAAAChgAAAAAAAAAABaAAAAGo
+AAAA8AAAA+MAAAKGcQNYCwAAAF9fdmVyc2lvbl9fcQRLAVgQAAAAY29udGV4dF9zZXR0aW5nc3EF
+XXEGKGNvcmFuZ2V3aWRnZXQuc2V0dGluZ3MKQ29udGV4dApxBymBcQh9cQkoWAQAAAB0aW1lcQpH
+QdezS9JMwmJYBgAAAHZhbHVlc3ELfXEMKFgMAAAAY3VycmVudEluZGV4cQ1LAEr+////hnEOWAsA
+AABkZXNjcmlwdG9yc3EPXXEQY09yYW5nZS53aWRnZXRzLmRhdGEub3dmZWF0dXJlY29uc3RydWN0
+b3IKQ29udGludW91c0Rlc2NyaXB0b3IKcRFYDQAAAHBhcnRpYWwgY29zdHNxElgOAAAAcXVhbnRp
+dHkqY29zdHNxE0sDh3EUgXEVYWgESwF1WAoAAABhdHRyaWJ1dGVzcRZ9cRcoWAgAAABxdWFudGl0
+eXEYSwJYBQAAAGNvc3RzcRlLAlgIAAAAU2VsZWN0ZWRxGksBdVgFAAAAbWV0YXNxG31xHFgMAAAA
+U2VsZWN0ZWQgKDEpcR1LAXN1YmgHKYFxHn1xHyhoCkdB17NL0kzBL2gLfXEgKGgNSwBK/v///4Zx
+IWgPXXEiaBFoEmgTSwOHcSOBcSRhaARLAXVoFn1xJShoGEsCaBlLAmgaSwF1aBt9cSZ1YmV1Lg==
+</properties>
+		<properties format="pickle" node_id="5">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAolYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQ0IB2dDLAAMAAAAAANoAAAFBAAAEsgAAA0oAAADaAAABVwAABLIA
+AANKAAAAAAAAAAAFoAAAANoAAAFXAAAEsgAAA0pxB1gLAAAAc2VsZWN0X3Jvd3NxCIlYDQAAAHNl
+bGVjdGVkX2NvbHNxCV1xClgNAAAAc2VsZWN0ZWRfcm93c3ELXXEMWBUAAABzaG93X2F0dHJpYnV0
+ZV9sYWJlbHNxDYlYEgAAAHNob3dfZGlzdHJpYnV0aW9uc3EOiVgLAAAAX192ZXJzaW9uX19xD0sB
+WBAAAABjb250ZXh0X3NldHRpbmdzcRBdcREoY29yYW5nZXdpZGdldC5zZXR0aW5ncwpDb250ZXh0
+CnESKYFxE31xFChYBAAAAHRpbWVxFUdB17NL0lPNJVgGAAAAdmFsdWVzcRZ9cRdoD0sBc1gKAAAA
+YXR0cmlidXRlc3EYfXEZKFgIAAAAcXVhbnRpdHlxGksCWAUAAABjb3N0c3EbSwJYDQAAAHBhcnRp
+YWwgY29zdHNxHEsCWAgAAABTZWxlY3RlZHEdY09yYW5nZS5kYXRhLnZhcmlhYmxlClR1cGxlTGlz
+dApxHlgCAAAATm9xH1gDAAAAWWVzcSCGcSGFcSKBcSN1WAUAAABtZXRhc3EkfXElWAwAAABTZWxl
+Y3RlZCAoMSlxJmgeaB9oIIZxJ4VxKIFxKXN1YmgSKYFxKn1xKyhoFUdB17NL0lPJj2gWfXEsaA9L
+AXNoGH1xLShoGksCaBtLAmgcSwJoHWgeaB9oIIZxLoVxL4FxMHVoJH1xMXViZXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

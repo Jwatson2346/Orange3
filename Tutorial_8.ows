@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="Tutorial_8" version="2.0">
+	<nodes>
+		<node id="0" name="GEO Data Sets" position="(-587.0, 139.0)" project_name="Orange3-Bioinformatics" qualified_name="orangecontrib.bioinformatics.widgets.OWGEODatasets.OWGEODatasets" title="GEO Data Sets" version="" />
+		<node id="1" name="GEO Data Sets" position="(-237.0, 146.0)" project_name="Orange3-Bioinformatics" qualified_name="orangecontrib.bioinformatics.widgets.OWGEODatasets.OWGEODatasets" title="GEO Data Sets (1)" version="" />
+		<node id="2" name="Data Table" position="(-113.0, 62.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="3" name="Databases Update" position="(37.0, 62.0)" project_name="Orange3-Bioinformatics" qualified_name="orangecontrib.bioinformatics.widgets.OWDatabasesUpdate.OWDatabasesUpdate" title="Databases Update" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="2" source_channel="Expression Data" source_node_id="1" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'auto_commit': True, 'controlAreaVisible': True, 'gds_selection_states': {}, 'genes_as_rows': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xdd\x00\x00\x00\xe4\x00\x00\x04\xf6\x00\x00\x02K\x00\x00\x00\xdd\x00\x00\x00\xfa\x00\x00\x04\xf6\x00\x00\x02K\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x00\xdd\x00\x00\x00\xfa\x00\x00\x04\xf6\x00\x00\x02K', 'search_pattern': '', 'selected_gds': None, 'splitter_settings': (b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x01\xea\x00\x00\x00\xd7\x01\x00\x00\x00\x07\x01\x00\x00\x00\x02', b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x01\xb5\x00\x00\x02\x10\x01\x00\x00\x00\x07\x01\x00\x00\x00\x01'), '__version__': 1}</properties>
+		<properties format="literal" node_id="1">{'auto_commit': True, 'controlAreaVisible': True, 'gds_selection_states': {}, 'genes_as_rows': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xdd\x00\x00\x00\xe4\x00\x00\x04\xf6\x00\x00\x02K\x00\x00\x00\xdd\x00\x00\x00\xfa\x00\x00\x04\xf6\x00\x00\x02K\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x00\xdd\x00\x00\x00\xfa\x00\x00\x04\xf6\x00\x00\x02K', 'search_pattern': 'smoking', 'selected_gds': None, 'splitter_settings': [b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xf7\x00\x00\x00\x00\x01\x00\x00\x00\x07\x01\x00\x00\x00\x02\x01', b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01\xb5\x00\x00\x02\x10\x01\x00\x00\x00\x07\x01\x00\x00\x00\x01\x01'], '__version__': 1}</properties>
+		<properties format="literal" node_id="2">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x016\x00\x00\x00\xab\x00\x00\x04U\x00\x00\x02\xb4\x00\x00\x016\x00\x00\x00\xc1\x00\x00\x04U\x00\x00\x02\xb4\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x016\x00\x00\x00\xc1\x00\x00\x04U\x00\x00\x02\xb4', 'select_rows': True, 'selected_cols': None, 'selected_rows': None, 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1, 'context_settings': []}</properties>
+		<properties format="literal" node_id="3">{'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x016\x00\x00\x00y\x00\x00\x04U\x00\x00\x02\xe6\x00\x00\x016\x00\x00\x00\x8f\x00\x00\x04U\x00\x00\x02\xe6\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x016\x00\x00\x00\x8f\x00\x00\x04U\x00\x00\x02\xe6', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

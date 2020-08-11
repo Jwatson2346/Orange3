@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="Tutorial_4" version="2.0">
+	<nodes>
+		<node id="0" name="File" position="(73.0, 87.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
+		<node id="1" name="Data Table" position="(289.0, 83.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="2" name="Select Columns" position="(294.0, 237.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" title="Select Columns" version="" />
+		<node id="3" name="Data Table" position="(402.0, 222.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (1)" version="" />
+		<node id="4" name="Save Data" position="(413.0, 331.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owsave.OWSave" title="Save Data" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="2" />
+		<link enabled="true" id="3" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="2" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="pickle" node_id="0">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYDAAAAHJlY2VudF9wYXRoc3ECXXEDKGNv
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3MKUmVjZW50UGF0aApxBCmBcQV9cQYoWAcAAABh
+YnNwYXRocQdYVQAAAC9Vc2Vycy9qYW1lc3dhdHNvbi9vcHQvYW5hY29uZGEzL2xpYi9weXRob24z
+Ljcvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaXJpcy50YWJxCFgGAAAAcHJlZml4cQlY
+DwAAAHNhbXBsZS1kYXRhc2V0c3EKWAcAAAByZWxwYXRocQtYCAAAAGlyaXMudGFicQxYBQAAAHRp
+dGxlcQ1YAAAAAHEOWAUAAABzaGVldHEPaA5YCwAAAGZpbGVfZm9ybWF0cRBOdWJoBCmBcRF9cRIo
+aAdYWAAAAC9Vc2Vycy9qYW1lc3dhdHNvbi9vcHQvYW5hY29uZGEzL2xpYi9weXRob24zLjcvc2l0
+ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvdGl0YW5pYy50YWJxE2gJaApoC1gLAAAAdGl0YW5p
+Yy50YWJxFGgNaA5oD2gOaBBOdWJoBCmBcRV9cRYoaAdYWAAAAC9Vc2Vycy9qYW1lc3dhdHNvbi9v
+cHQvYW5hY29uZGEzL2xpYi9weXRob24zLjcvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMv
+aG91c2luZy50YWJxF2gJaApoC1gLAAAAaG91c2luZy50YWJxGGgNaA5oD2gOaBBOdWJoBCmBcRl9
+cRooaAdYXgAAAC9Vc2Vycy9qYW1lc3dhdHNvbi9vcHQvYW5hY29uZGEzL2xpYi9weXRob24zLjcv
+c2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaGVhcnRfZGlzZWFzZS50YWJxG2gJaApoC1gR
+AAAAaGVhcnRfZGlzZWFzZS50YWJxHGgNaA5oD2gOaBBOdWJoBCmBcR19cR4oaAdYXwAAAC9Vc2Vy
+cy9qYW1lc3dhdHNvbi9vcHQvYW5hY29uZGEzL2xpYi9weXRob24zLjcvc2l0ZS1wYWNrYWdlcy9P
+cmFuZ2UvZGF0YXNldHMvYnJvd24tc2VsZWN0ZWQudGFicR9oCWgKaAtYEgAAAGJyb3duLXNlbGVj
+dGVkLnRhYnEgaA1oDmgPaA5oEE51YmgEKYFxIX1xIihoB1hUAAAAL1VzZXJzL2phbWVzd2F0c29u
+L29wdC9hbmFjb25kYTMvbGliL3B5dGhvbjMuNy9zaXRlLXBhY2thZ2VzL09yYW5nZS9kYXRhc2V0
+cy96b28udGFicSNoCWgKaAtYBwAAAHpvby50YWJxJGgNaA5oD2gOaBBOdWJlWAsAAAByZWNlbnRf
+dXJsc3ElXXEmWGQAAABodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9zcHJlYWRzaGVldHMvZC8xbkRw
+dXlhTTh3bGVPR2ZnZlo5dllkR1hXZklScGFLdEZLRDl2R2E0bzRwYy9lZGl0P3VzcD1zaGFyaW5n
+cSdhWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cShDMgHZ0MsAAgAAAAAAJwAAAE4AAAJ+AAACiQAA
+ACcAAABkAAACfgAAAokAAAAAAAAAAAWgcSlYCwAAAHNoZWV0X25hbWVzcSp9cStYBgAAAHNvdXJj
+ZXEsSwFYAwAAAHVybHEtaA5YDQAAAGRvbWFpbl9lZGl0b3JxLn1xL1gLAAAAX192ZXJzaW9uX19x
+MEsBWBAAAABjb250ZXh0X3NldHRpbmdzcTFdcTIoY29yYW5nZXdpZGdldC5zZXR0aW5ncwpDb250
+ZXh0CnEzKYFxNH1xNShYBAAAAHRpbWVxNkdB17Vaf8yOFVgGAAAAdmFsdWVzcTd9cTgoWAkAAAB2
+YXJpYWJsZXNxOV1xOlgJAAAAeGxzX3NoZWV0cTtoDkr/////hnE8aC59cT1oOV1xPihdcT8oWAYA
+AABnZW5kZXJxQGNPcmFuZ2UuZGF0YS52YXJpYWJsZQpEaXNjcmV0ZVZhcmlhYmxlCnFBSwBYDAAA
+AGZlbWFsZSwgbWFsZXFCiWVdcUMoWAYAAABoZWlnaHRxRGNPcmFuZ2UuZGF0YS52YXJpYWJsZQpD
+b250aW51b3VzVmFyaWFibGUKcUVLAGgOiGVdcUYoWAYAAAB3ZWlnaHRxR2hFSwBoDohlXXFIKFgJ
+AAAAZXllIGNvbG9ycUloQUsAWBIAAABibHVlLCBicm93biwgZ3JlZW5xSollXXFLKFgKAAAAaGFp
+ciBjb2xvcnFMaEFLAFgYAAAAYmxhY2ssIGJsb25kLCBicm93biwgcmVkcU2JZV1xTihYBAAAAG5h
+bWVxT2NPcmFuZ2UuZGF0YS52YXJpYWJsZQpTdHJpbmdWYXJpYWJsZQpxUEsCaA6JZWVzaDBLAXVY
+CgAAAGF0dHJpYnV0ZXNxUShoQF1xUihYBgAAAGZlbWFsZXFTWAQAAABtYWxlcVRlhnFVaERLAoZx
+VmhHSwKGcVdoSV1xWChYBAAAAGJsdWVxWVgFAAAAYnJvd25xWlgFAAAAZ3JlZW5xW2WGcVxoTF1x
+XShYBQAAAGJsYWNrcV5YBQAAAGJsb25kcV9YBQAAAGJyb3ducWBYAwAAAHJlZHFhZYZxYnRxY1gF
+AAAAbWV0YXNxZGhPSwOGcWWFcWZYCgAAAGNsYXNzX3ZhcnNxZylYEgAAAG1vZGlmaWVkX3Zhcmlh
+Ymxlc3FoXXFpdWJoMymBcWp9cWsoaDZHQde1WnCavORoN31xbChoOV1xbWg7aA5K/////4Zxbmgu
+fXFvaDldcXAoXXFxKFgMAAAAc2VwYWwgbGVuZ3RocXJoRUsAaA6IZV1xcyhYCwAAAHNlcGFsIHdp
+ZHRocXRoRUsAaA6IZV1xdShYDAAAAHBldGFsIGxlbmd0aHF2aEVLAGgOiGVdcXcoWAsAAABwZXRh
+bCB3aWR0aHF4aEVLAGgOiGVdcXkoWAQAAABpcmlzcXpoQUsBWCwAAABJcmlzLXNldG9zYSwgSXJp
+cy12ZXJzaWNvbG9yLCBJcmlzLXZpcmdpbmljYXF7iWVlc2gwSwF1aFEoaHJLAoZxfGh0SwKGcX1o
+dksChnF+aHhLAoZxf3RxgGhkKWhnaHpdcYEoWAsAAABJcmlzLXNldG9zYXGCWA8AAABJcmlzLXZl
+cnNpY29sb3Jxg1gOAAAASXJpcy12aXJnaW5pY2FxhGWGcYWFcYZoaF1xh3ViZXUu
+</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAohYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQzIB2dDLAAIAAAAAAqAAAACjAAAFvwAAAqwAAAKgAAAAuQAABb8A
+AAKsAAAAAAAAAAAFoHEHWAsAAABzZWxlY3Rfcm93c3EIiFgNAAAAc2VsZWN0ZWRfY29sc3EJXXEK
+WA0AAABzZWxlY3RlZF9yb3dzcQtdcQxYFQAAAHNob3dfYXR0cmlidXRlX2xhYmVsc3ENiFgSAAAA
+c2hvd19kaXN0cmlidXRpb25zcQ6IWAsAAABfX3ZlcnNpb25fX3EPSwFYEAAAAGNvbnRleHRfc2V0
+dGluZ3NxEF1xEWNvcmFuZ2V3aWRnZXQuc2V0dGluZ3MKQ29udGV4dApxEimBcRN9cRQoWAQAAAB0
+aW1lcRVHQde1WpHWoaRYBgAAAHZhbHVlc3EWfXEXaA9LAXNYCgAAAGF0dHJpYnV0ZXNxGH1xGShY
+BgAAAGdlbmRlcnEaXXEbKFgGAAAAZmVtYWxlcRxYBAAAAG1hbGVxHWVYBgAAAGhlaWdodHEeSwJY
+BgAAAHdlaWdodHEfSwJYCQAAAGV5ZSBjb2xvcnEgXXEhKFgEAAAAYmx1ZXEiWAUAAABicm93bnEj
+WAUAAABncmVlbnEkZVgKAAAAaGFpciBjb2xvcnElXXEmKFgFAAAAYmxhY2txJ1gFAAAAYmxvbmRx
+KFgFAAAAYnJvd25xKVgDAAAAcmVkcSpldVgFAAAAbWV0YXNxK31xLFgEAAAAbmFtZXEtSwNzdWJh
+dS4=
+</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgSAAAAY29udHJvbEFyZWFWaXNpYmxlcQKIWBMAAABz
+YXZlZFdpZGdldEdlb21ldHJ5cQNDMgHZ0MsAAgAAAAABmgAAAHkAAAPxAAAC5gAAAZoAAACPAAAD
+8QAAAuYAAAAAAAAAAAWgcQRYEgAAAHVzZV9pbnB1dF9mZWF0dXJlc3EFiVgLAAAAX192ZXJzaW9u
+X19xBksBWBAAAABjb250ZXh0X3NldHRpbmdzcQddcQhjb3Jhbmdld2lkZ2V0LnNldHRpbmdzCkNv
+bnRleHQKcQkpgXEKfXELKFgEAAAAdGltZXEMR0HXtVqfh/pIWAYAAAB2YWx1ZXNxDX1xDihYEQAA
+AGRvbWFpbl9yb2xlX2hpbnRzcQ99cRAoWAYAAABoZWlnaHRxEUsChnESWAkAAABhdHRyaWJ1dGVx
+E0sAhnEUWAYAAAB3ZWlnaHRxFUsChnEWaBNLAYZxF1gJAAAAZXllIGNvbG9ycRhLAYZxGWgTSwKG
+cRpYCgAAAGhhaXIgY29sb3JxG0sBhnEcaBNLA4ZxHVgGAAAAZ2VuZGVycR5LAYZxH1gFAAAAY2xh
+c3NxIEsAhnEhWAQAAABuYW1lcSJLA4ZxI1gEAAAAbWV0YXEkSwCGcSV1Sv7///+GcSZoBksBdVgK
+AAAAYXR0cmlidXRlc3EnfXEoKGgeSwFoEUsCaBVLAmgYSwFoG0sBdVgFAAAAbWV0YXNxKX1xKmgi
+SwNzdWJhdS4=
+</properties>
+		<properties format="pickle" node_id="3">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAohYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQzIB2dDLAAIAAAAAAUAAAAC8AAAEXwAAAsUAAAFAAAAA0gAABF8A
+AALFAAAAAAAAAAAFoHEHWAsAAABzZWxlY3Rfcm93c3EIiFgNAAAAc2VsZWN0ZWRfY29sc3EJXXEK
+WA0AAABzZWxlY3RlZF9yb3dzcQtdcQxYFQAAAHNob3dfYXR0cmlidXRlX2xhYmVsc3ENiFgSAAAA
+c2hvd19kaXN0cmlidXRpb25zcQ6IWAsAAABfX3ZlcnNpb25fX3EPSwFYEAAAAGNvbnRleHRfc2V0
+dGluZ3NxEF1xEWNvcmFuZ2V3aWRnZXQuc2V0dGluZ3MKQ29udGV4dApxEimBcRN9cRQoWAQAAAB0
+aW1lcRVHQde1Wqrinv5YBgAAAHZhbHVlc3EWfXEXaA9LAXNYCgAAAGF0dHJpYnV0ZXNxGH1xGShY
+BgAAAGhlaWdodHEaSwJYBgAAAHdlaWdodHEbSwJYCQAAAGV5ZSBjb2xvcnEcXXEdKFgEAAAAYmx1
+ZXEeWAUAAABicm93bnEfWAUAAABncmVlbnEgZVgKAAAAaGFpciBjb2xvcnEhXXEiKFgFAAAAYmxh
+Y2txI1gFAAAAYmxvbmRxJFgFAAAAYnJvd25xJVgDAAAAcmVkcSZlWAYAAABnZW5kZXJxJ11xKChY
+BgAAAGZlbWFsZXEpWAQAAABtYWxlcSpldVgFAAAAbWV0YXNxK31xLFgEAAAAbmFtZXEtSwNzdWJh
+dS4=
+</properties>
+		<properties format="literal" node_id="4">{'add_type_annotations': True, 'auto_save': False, 'controlAreaVisible': True, 'filename': '/Users/jameswatson/Desktop/Summer Internship  2020/Homework Assignments/Orange Data Mining Tutorials/Tutorial_4 - Sheet1.tab', 'filter': 'Tab-separated values (*.tab)', 'last_dir': '/Users/jameswatson/Desktop/Summer Internship  2020/Homework Assignments/Orange Data Mining Tutorials', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02H\x00\x00\x01i\x00\x00\x03\x9d\x00\x00\x01\xf6\x00\x00\x02H\x00\x00\x01\x7f\x00\x00\x03\x9d\x00\x00\x01\xf6\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0', '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
